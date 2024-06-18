@@ -11,7 +11,7 @@
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
         <div class="w3-bar w3-black w3-wide w3-padding w3-card">
-            <a href="#home" class="w3-bar-item w3-button"><b>.iNit</b> <span style="color: red;">Technologies</span></b></a>
+            <a href="#home" class="w3-bar-item w3-button"><b>Max</b> <span style="color: red;">App</span></b></a>
             <!-- Float links to the right. Hide them on small screens -->
             <div class="w3-right w3-hide-small">
                 <a href="#projects" class="w3-bar-item w3-button">Home</a>
