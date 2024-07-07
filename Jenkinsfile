@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         GITHUB_REPO_URL = 'https://github.com/VonMax25/max-app.git'
-        BRANCH_NAME = 'master'  // Replace with your branch name if it's not 'main'
+        BRANCH_NAME = 'main'  // Replace with your branch name if it's not 'main'
         GITHUB_CREDENTIALS_ID = 'jenkins-credentials'  // Replace with your Jenkins GitHub credentials ID
         DOCKERHUB_CREDENTIALS_ID = 'max-dockerhub-credentials'  // Replace with your Jenkins Docker Hub credentials ID
         DOCKERHUB_REPO = 'vonmax25/max-app'  // Replace with your Docker Hub repository
