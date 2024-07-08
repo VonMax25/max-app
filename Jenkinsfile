@@ -1,11 +1,11 @@
 pipeline {
-    agent { label 'agent2' }  // Replace 'wsl-agent' with the label of your agent
+    agent { label 'agent1' }  // Replace 'wsl-agent' with the label of your agent
 
     environment {
         GITHUB_REPO_URL = 'https://github.com/VonMax25/max-app.git'
         BRANCH_NAME = 'main'  // Replace with your branch name if it's not 'main'
-        GITHUB_CREDENTIALS_ID = 'jenkins-credentials'  // Replace with your Jenkins GitHub credentials ID
-        DOCKERHUB_CREDENTIALS_ID = 'max-dockerhub-credentials'  // Replace with your Jenkins Docker Hub credentials ID
+        GITHUB_CREDENTIALS_ID = 'jenkins-pipeline-credentials'  // Replace with your Jenkins GitHub credentials ID
+        DOCKERHUB_CREDENTIALS_ID = 'dockerhub-cred1'  // Replace with your Jenkins Docker Hub credentials ID
         DOCKERHUB_REPO = 'vonmax25/max-app'  // Replace with your Docker Hub repository
     }
 
